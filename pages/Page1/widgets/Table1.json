@@ -76,6 +76,7 @@
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "columnUpdatedAt": 1697456375589,
+    "originalBottomRow": 132,
     "primaryColumnId": "_id",
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 132,
@@ -98,7 +99,8 @@
     ],
     "dynamicPropertyPathList": [
         {"key": "primaryColumns.EditActions1.isSaveDisabled"},
-        {"key": "primaryColumns.EditActions1.isDiscardDisabled"}
+        {"key": "primaryColumns.EditActions1.isDiscardDisabled"},
+        {"key": "tableData"}
     ],
     "displayName": "Table",
     "bottomRow": 132,
@@ -484,7 +486,7 @@
     "key": "u3fxmnzxi9",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 36,
+    "rightColumn": 57,
     "textSize": "0.875rem",
     "widgetId": "jshjta0s1c",
     "allowAddNewRow": true,
@@ -500,6 +502,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 104,
     "mobileLeftColumn": 2,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

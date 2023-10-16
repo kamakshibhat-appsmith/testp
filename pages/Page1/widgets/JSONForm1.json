@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{Insert_public_users1.run(() => {\n            showAlert(\"undefined\");\n            \n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
+    "onSubmit": "{{Insert_public_users2.run(() => {\n            showAlert(\"undefined\");\n            \n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
     "topRow": 2,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -148,7 +148,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 41,
+    "originalBottomRow": 102,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -440,8 +440,8 @@
         "buttonVariant": "PRIMARY"
     },
     "dynamicPropertyPathList": [
-        {"key": "sourceData"},
-        {"key": "schema.__root_schema__.children.dob.defaultValue"}
+        {"key": "schema.__root_schema__.children.dob.defaultValue"},
+        {"key": "sourceData"}
     ],
     "displayName": "JSON Form",
     "bottomRow": 102,
@@ -453,19 +453,7 @@
     "parentColumnSpace": 12.578125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": {
-        "image": "",
-        "country": "",
-        "gender": "",
-        "updated_at": "",
-        "phone": "",
-        "dob": "2023-10-16T17:09:15.1515+05:30",
-        "latitude": "",
-        "name": "",
-        "created_at": "",
-        "email": "",
-        "longitude": ""
-    },
+    "sourceData": "{\n  \"gender\": \"\",\n  \"latitude\": \"\",\n  \"longitude\": \"\",\n  \"dob\": \"2023-10-16T17:17:21.2121+05:30\",\n  \"phone\": \"\",\n  \"email\": \"\",\n  \"image\": \"\",\n  \"country\": \"\",\n  \"name\": \"\",\n  \"created_at\": \"\",\n  \"updated_at\": \"\"\n}",
     "resetButtonLabel": "Reset",
     "key": "qht6gg3ylh",
     "backgroundColor": "#fff",
